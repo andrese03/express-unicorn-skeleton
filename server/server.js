@@ -19,7 +19,7 @@ require('./routes/person')(app);
 // Routes
 
 app.use('*', function(req, res, next){
-  res.status(404).json(new utils.badResponse(`Whait what? 'The url you're trying to reach doesn't exist.`));
+  res.status(404).json(new utils.badResponse(`Wait what? 'The url you're trying to reach doesn't exist.`));
 });
 
 // START THE SERVER
